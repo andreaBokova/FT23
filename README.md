@@ -1,4 +1,5 @@
 Final project vo Vue.js z predmetu Frontendove tecchnologie (3. rocnik).
+Basic movie website 
 
 Poziadavky: 
 Webová stránka musí obsahovať niekoľko podstránok na ktoré je možné sa presunúť pomocou Vue Router.
