@@ -10,6 +10,6 @@ Autor musí pri realizácii použiť nasledovné technológie: Vue.js 3.*, HTML 
 # vue-project
 delete package-lock.json,
 npm install,
-npm run dev,
+npm run dev
 
 
