@@ -46,10 +46,6 @@ export const useMovieStore = defineStore({
       return this.unseenMovies
     },
 
-    logAllMovies() {
-      const allMovies = this.allMovies
-      return allMovies
-    },
 
     removeFromFavorites(movieId) {
       const index = this.favoriteMovies.findIndex((movie) => movie.id === movieId)
@@ -60,8 +56,8 @@ export const useMovieStore = defineStore({
       }
     },
 
+    //adding movie to watchlist
     addToUnseenMovies(movie) {
-      const allMovies = this.logAllMovies()
       if (!this.allMovies.find((m) => m.id === movie.id)) {
         this.unseenMovies.push(movie)
         this.updateLocalStorage('unseenMovies')

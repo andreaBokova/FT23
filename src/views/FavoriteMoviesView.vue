@@ -56,9 +56,6 @@ export default {
   methods: {
 
 
-
-
-
     updateMovies() {
       this.unseenMovies = this.movieStore.getUnseenMovies()
       this.seenMovies = this.movieStore.getSeenMovies()
